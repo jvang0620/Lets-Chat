@@ -45,6 +45,7 @@ function Chat({ socket, username, room }) {
 
       {/* Chat Header */}
       <div className="chat-header">
+        <div className="dot"></div>
         <p>Live Chat</p>
       </div>
 
