@@ -10,15 +10,18 @@ function Chat({ socket, username, room }) {
   //handle the sending of messages in a real-time chat application using Socket.IO
   const sendMessage = async () => {
     if (currentMessage !== "") {
+
+      //get current date
+      const currentDate = new Date();
+      //format date
+      const formattedTime = currentDate.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit', hour12: true });
+
       //object messageData
       const messageData = {
         room: room,
         author: username,
         message: currentMessage,
-        time:
-          new Date(Date.now()).getHours() +
-          ":" +
-          new Date(Date.now()).getMinutes(),
+        time: formattedTime
       };
 
       //handle the process of sending a message from the client to the server
