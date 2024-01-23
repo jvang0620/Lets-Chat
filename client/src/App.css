@@ -17,6 +17,10 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  width: 300px;
+  border: 5px solid green;
+  padding: 50px;
+  margin: 20px;
 }
 
 .joinChatContainer h3 {
@@ -24,7 +28,6 @@ body {
   margin-bottom: 1rem;
 }
 .joinChatContainer input {
-  width: 210px;
   height: 40px;
   margin: 7px;
   border: 2px solid #43a047;
@@ -34,7 +37,6 @@ body {
 }
 
 .joinChatContainer button {
-  width: 225px;
   height: 50px;
   margin: 7px;
   border: none;
