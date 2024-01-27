@@ -18,7 +18,7 @@
 
 ## Overview
 
-This application provides users with a seamless and interactive platform to engage in live conversations with others. Built using React, Socket.IO, and Express, the application allows users to join chat rooms, exchange messages, and experience the thrill of real-time communication.
+The Chat App is designed to provide users with an engaging and dynamic platform for real-time conversations. Leveraging state-of-the-art technologies, the application seamlessly unites users in interactive chat rooms, fostering a strong sense of community and facilitating smooth communication. With an emphasis on user experience, the app boasts a user-friendly interface that ensures a seamless and enjoyable chatting experience for individuals of all skill levels.
 
 ## Key Features:
 
